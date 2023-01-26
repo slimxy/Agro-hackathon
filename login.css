@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(0deg, rgb(13, 207, 13), rgba(231, 238, 236, 0.925));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 19px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 53px;
+}
+
+header a{
+    /* margin: 25px; */
+    color: rgb(60, 124, 16);
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.link {
+    position: absolute;
+    display: flex;
+    top:3%;
+    right: 12px;
+}
+
+.link p {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 5px 25px;
+    padding: 5px 10px;
+    color: rgba(26, 116, 8, 0.842);
+}
+
+.link p:hover {
+    background-color: rgba(26, 116, 8, 0.842);
+    color: white;
+    border-radius: 9px;
+    border: 3px solid white;
+    transition: all ease 0.5ms;
+}
+
+
+.select {
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    font-size: 34px;
+    color: rgb(8, 160, 8);
+    text-shadow: 5px 2px 16px rgba(4, 87, 4, 0.548);
+    display: flex;
+    gap: 45px;
+    display: none;
+}
+.select.active{
+    display: none;
+}
+.select h2 {
+    position: absolute;
+    top: 8%;
+    left: 45%;
+    font-size: 44px;
+    color: rgba(143, 136, 136, 0.288);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.select p:hover {
+    text-decoration: underline;
+    color: rgb(247, 239, 239);
+    cursor: pointer;
+}
+/*  forms */
+.details{
+    position: absolute;
+    top: 73px;
+    left: 29%;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 12px;
+    display: none;
+    padding: 12px;
+}
+.details.active{
+    display: block;
+}
+input{
+    width: 83%;
+    height: 33px;
+    margin: 12px 32px;
+    border: 2px solid rgb(17, 221, 17);
+    border-radius: 12px;
+    font-size: large;
+    padding-left: 12px;
+    cursor: pointer;
+}
+.log{
+    position: absolute;
+    top: 73px;
+    left: 29%;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    border-radius: 12px;
+    padding-top: 42px;
+    display: none;
+}
+.log.active{
+    display: block;
+}
+ button{
+    width: 43%;
+    height: 40px;
+    margin: 42px 27%;
+    color: rgba(102, 100, 100, 0.678);
+    background: rgb(17, 221, 17);
+    border: 3px solid rgba(2, 61, 17, 0.534);
+    border-radius: 12px;
+    font-size: large;
+    cursor: pointer;
+}
+.log h3{
+    color: rgba(128, 128, 128, 0.377);
+    margin-left: 23%;
+    cursor: pointer;
+}
+.log h2{
+    color: rgba(52, 224, 37, 0.842);
+    margin-left: 63%;
+    margin-top: -21px;
+    font-size: 20px;
+    cursor: pointer;
+}

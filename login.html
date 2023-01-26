@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <a href="/">DODIRE</a>
+       
+    </header>
+    <div class="link">
+    <p onclick="log()" id="login"> login</p>
+    <p  onclick="form()">signup</p>
+    </div>
+    <div class="select">
+        <h2>AS</h2>
+        <p id="farmer" onclick="trial()">FARMER</p>
+        <P id="enterprese" onclick="trial()">ENTERPRESE </P>
+        <p id="buyer" onclick="trial()">BUYER</p>
+    </div>
+    <!-- forms -->
+    <div class="details">
+    <form action="">
+<input type="text" placeholder=" Enter full name">
+<input type="email" placeholder="Email">
+<input type="password" name="pass" id="pass" placeholder="password">
+<input type="password" name="pass" id="pass" placeholder="confirm password">
+<input type="tel" name="phone" id="phone" placeholder="enter phone number">
+<input type="text" name="text" id="text" placeholder="Enter address">
+<button type="submit">signup</button>
+
+
+    </form>
+</div>
+<div class="log">
+    <form action="">
+    <input type="email" placeholder="Email">
+    <input type="password" name="pass" id="pass" placeholder="password">
+<button type="submit">login</button>
+<h3>New member?</h3> <h2>Signup</h2>
+</form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

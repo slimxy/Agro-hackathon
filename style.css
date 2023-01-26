@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(0deg, rgb(13, 207, 13), rgba(231, 238, 236, 0.925));
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+header {
+    position: absolute;
+    top: 19px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 53px;
+}
+
+header .logo {
+    /* margin: 25px; */
+    color: rgb(60, 124, 16);
+    font-size: 23px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(8, 8, 8, 0.952);
+    margin: 23px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1pX solid rgb(9, 168, 9);
+    padding: 6px;
+    border-radius: 4px;
+}
+
+a:hover {
+    transition: 0.5s all ease;
+    color: rgba(10, 253, 10, 0.719);
+    border: 1px solid white;
+    font-size:large ;
+}
+
+marquee {
+    position: absolute;
+    top: 75px;
+    color: rgba(10, 253, 10, 0.719);
+    font-style: italic;
+}
+
+img {
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    width: 50%;
+    height: 67%;
+    border-radius: 50%;
+}
+
+/* .sign a {
+    position: absolute;
+    top: 320px;
+    right: 33px;
+    ;
+    width: 128px;
+    height: 33px;
+    background-color: rgb(60, 124, 16);
+    color: white;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7%;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    text-align: center;
+    margin: 12px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+} */
+
